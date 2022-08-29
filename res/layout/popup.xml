@@ -1,0 +1,43 @@
+<LinearLayout android:layout_width="wrap_content"
+    android:layout_height="300dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/circlebackground"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/success"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Bill Generated Successfully !"
+        android:id="@+id/tv_text"
+        android:textFontWeight="700"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:textColor="#000000"/>
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="ok"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:backgroundTint="#06496e"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+</LinearLayout>

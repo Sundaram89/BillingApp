@@ -1,0 +1,67 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/itemname"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="item name"
+            android:inputType="text"
+            android:maxLength="20"
+            android:textSize="14dp"></EditText>
+    <Space
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+    <EditText
+        android:id="@+id/qty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:maxLength="10"
+        android:inputType="number"
+        android:background="@null"
+        android:hint="Quantity"></EditText>
+    <Space
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+
+
+    <EditText
+        android:id="@+id/actualprice"
+        android:inputType="number"
+        android:textSize="14dp"
+        android:maxLength="7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Actual price"
+        android:background="@null"></EditText>
+    <Space
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+    <EditText
+        android:id="@+id/discprice"
+        android:inputType="number"
+        android:textSize="14dp"
+        android:maxLength="5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Disc price"
+        android:background="@null"></EditText>
+
+
+
+</LinearLayout>
+</ScrollView>
